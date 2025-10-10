@@ -57,4 +57,13 @@ fun main() {
     println(shapes)
 // [triangle, square, circle]
 
+
+    // Read-only set
+    val readOnlyFruit = setOf("apple", "banana", "cherry", "cherry")
+// Mutable set with explicit type declaration
+    val fruit: MutableSet<String> = mutableSetOf("apple", "banana", "cherry", "cherry")
+    println(readOnlyFruit)
+    println(fruit)
+// [apple, banana, cherry]
+
 }
