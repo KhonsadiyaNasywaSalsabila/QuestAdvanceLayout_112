@@ -78,4 +78,8 @@ fun main() {
 // {apple=100, kiwi=190, orange=100}
 
 
+    for (number in 1..5) {
+        // number is the iterator and 1..5 is the range
+        print(number)
+    }
 }
