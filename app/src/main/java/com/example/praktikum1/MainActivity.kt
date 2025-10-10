@@ -80,6 +80,11 @@ fun main() {
 
     for (number in 1..5) {
         // number is the iterator and 1..5 is the range
-        print(number)
+        println(number)
     }
+
+    val customers = 10
+    println("There are $customers customers")
+
 }
+
