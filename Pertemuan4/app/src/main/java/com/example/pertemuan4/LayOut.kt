@@ -82,6 +82,7 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = Color.Blue
             ),
+            elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
 
 
 
