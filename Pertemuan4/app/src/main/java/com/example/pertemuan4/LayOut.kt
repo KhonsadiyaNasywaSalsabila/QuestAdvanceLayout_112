@@ -107,6 +107,17 @@ fun ActivitasPertama(modifier: Modifier){
                         color = Color.White
                     )
                     Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = stringResource(R.string.NIM),
+                        fontSize = 18.sp,
+                        color = Color.Yellow
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = stringResource(R.string.alamat),
+                        fontSize = 18.sp,
+                        color = Color.Yellow
+                    )
 
 
                 }
