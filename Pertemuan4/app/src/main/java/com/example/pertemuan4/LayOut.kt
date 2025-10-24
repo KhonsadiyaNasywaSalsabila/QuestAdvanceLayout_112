@@ -84,10 +84,10 @@ fun ActivitasPertama(modifier: Modifier){
             ),
             elevation = CardDefaults.cardElevation(defaultElevation = 8.dp)
 
-
-
         ) {
             Row(
+                modifier = Modifier.padding(all = 16.dp),
+                verticalAlignment = Alignment.CenterVertically
 
             ) {
 
