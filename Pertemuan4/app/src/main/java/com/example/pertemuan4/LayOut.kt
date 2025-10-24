@@ -75,7 +75,21 @@ fun ActivitasPertama(modifier: Modifier){
             }
         }
         Spacer(modifier = Modifier.height(16.dp))
+        Card (
 
+
+        ) {
+            Row(
+
+            ) {
+
+
+
+                Column {
+
+                }
+            }
+        }
 
         Box(
             modifier = Modifier
