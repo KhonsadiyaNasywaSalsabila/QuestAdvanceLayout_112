@@ -123,6 +123,7 @@ fun ActivitasPertama(modifier: Modifier){
                 }
             }
         }
+        Spacer(modifier = Modifier.height(16.dp))
 
         Box(
             modifier = Modifier
