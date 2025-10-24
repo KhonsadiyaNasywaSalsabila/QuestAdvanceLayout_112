@@ -148,6 +148,25 @@ fun ActivitasPertama(modifier: Modifier){
                 Spacer(modifier = Modifier.width(16.dp))
 
                 Column {
+                    Text(
+                        text = stringResource(R.string.nama),
+                        fontSize = 23.sp,
+                        fontWeight = FontWeight.Bold,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = stringResource(R.string.NIM),
+                        fontSize = 18.sp,
+                        color = Color.Yellow
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = stringResource(R.string.alamat),
+                        fontSize = 18.sp,
+                        color = Color.Yellow
+                    )
 
                 }
             }
