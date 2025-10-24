@@ -76,6 +76,13 @@ fun ActivitasPertama(modifier: Modifier){
         }
         Spacer(modifier = Modifier.height(16.dp))
         Card (
+            modifier = Modifier
+                .padding(horizontal = 8.dp)
+                .fillMaxWidth(),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Blue
+            ),
+
 
 
         ) {
