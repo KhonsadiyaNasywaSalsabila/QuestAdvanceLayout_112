@@ -88,8 +88,8 @@ fun ActivitasPertama(modifier: Modifier){
             Row(
                 modifier = Modifier.padding(all = 16.dp),
                 verticalAlignment = Alignment.CenterVertically
-
             ) {
+                val gambar = painterResource(R.drawable.download)
 
 
 
