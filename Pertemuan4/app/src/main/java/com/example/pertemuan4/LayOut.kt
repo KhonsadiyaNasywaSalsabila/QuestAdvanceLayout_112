@@ -106,6 +106,7 @@ fun ActivitasPertama(modifier: Modifier){
                         fontFamily = FontFamily.Cursive,
                         color = Color.White
                     )
+                    Spacer(modifier = Modifier.height(4.dp))
 
 
                 }
